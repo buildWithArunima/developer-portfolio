@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -6,7 +6,6 @@ import {
   Redirect,
 } from "react-router-dom";
 
-import { ThemeContext } from "./contexts/ThemeContext";
 import { Main, CertificatePage, ProjectPage } from "./pages";
 import { BackToTop } from "./components";
 import ScrollToTop from "./utils/ScrollToTop";

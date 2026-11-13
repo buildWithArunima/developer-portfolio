@@ -7,13 +7,11 @@ import {
   Landing,
   About,
   Skills,
-  Testimonials,
   Certificate,
   Education,
   Experience,
   Contacts,
   Projects,
-  Services,
   Achievement,
 } from "../../components";
 import { headerData } from "../../data/headerData";
@@ -34,8 +32,6 @@ function Main() {
       <Projects />
       <Certificate />
       <Achievement />
-      {/* <Services />
-      <Testimonials /> */}
       <Contacts />
       <Footer />
     </div>

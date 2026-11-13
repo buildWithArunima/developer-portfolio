@@ -6,7 +6,6 @@ import { makeStyles } from "@material-ui/core/styles";
 import { AiOutlineHome } from "react-icons/ai";
 
 import "./CertificatePage.css";
-import { singleCertificate } from "../../components/Certificate/Certificate";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { certificateData } from "../../data/certificateData";
 import { headerData } from "../../data/headerData";
