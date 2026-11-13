@@ -1,11 +1,11 @@
 import resume from "../assets/pdf/Arunima_Singh_SDE_Resume.pdf";
-import userImage from "../assets/png/userImage.png";
+import userImage from "../assets/png/userImage.jpg";
 
 export const headerData = {
   name: "Arunima Singh",
-  title: "Web Developer",
+  title: "Backend Engineer · Senior SDE I at GoComet",
   desciption:
-    "There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
+    "I build distributed systems for B2B SaaS — event-driven Kafka microservices, billing engines and data pipelines that have to be correct, fast and reliable. I own features end to end, from PRD and LLD through release and the client call after it.",
   image: userImage,
   resumePdf: resume,
 };

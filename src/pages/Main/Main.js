@@ -22,7 +22,7 @@ function Main() {
   return (
     <div>
       <Helmet>
-        <title>{headerData.name} - Porfolio</title>
+        <title>{headerData.name} - Backend Engineer</title>
       </Helmet>
 
       <Navbar />
