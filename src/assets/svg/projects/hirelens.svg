@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3500 2000">
+  <rect width="3500" height="2000" fill="#FFFFFF"/>
+  <circle cx="2450" cy="900" r="720" fill="#F4F7FD"/>
+  <!-- code window -->
+  <rect x="700" y="420" width="1650" height="1160" rx="48" fill="#FFFFFF" stroke="#263238" stroke-width="16"/>
+  <rect x="700" y="420" width="1650" height="140" rx="48" fill="#263238"/>
+  <rect x="700" y="500" width="1650" height="60" fill="#263238"/>
+  <circle cx="800" cy="490" r="24" fill="#FF6B6B"/>
+  <circle cx="880" cy="490" r="24" fill="#FFC857"/>
+  <circle cx="960" cy="490" r="24" fill="#4ECB71"/>
+  <!-- code lines -->
+  <g stroke-linecap="round" stroke-width="34">
+    <line x1="820" y1="680" x2="1300" y2="680" stroke="#7C83FD"/>
+    <line x1="900" y1="770" x2="1700" y2="770" stroke="#CFD8DC"/>
+    <line x1="900" y1="860" x2="1500" y2="860" stroke="#CFD8DC"/>
+    <line x1="980" y1="950" x2="1880" y2="950" stroke="#F56539"/>
+    <line x1="980" y1="1040" x2="1600" y2="1040" stroke="#CFD8DC"/>
+    <line x1="900" y1="1130" x2="1400" y2="1130" stroke="#CFD8DC"/>
+    <line x1="820" y1="1220" x2="1150" y2="1220" stroke="#7C83FD"/>
+    <line x1="820" y1="1310" x2="1750" y2="1310" stroke="#CFD8DC"/>
+    <line x1="820" y1="1400" x2="1450" y2="1400" stroke="#CFD8DC"/>
+  </g>
+  <!-- highlighted verified line -->
+  <rect x="940" y="905" width="990" height="90" rx="20" fill="#F56539" fill-opacity="0.12"/>
+  <!-- checklist card -->
+  <rect x="2150" y="760" width="760" height="760" rx="40" fill="#FFFFFF" stroke="#263238" stroke-width="16"/>
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="2240,900 2290,950 2370,860" fill="none" stroke="#4ECB71" stroke-width="30"/>
+    <line x1="2440" y1="905" x2="2800" y2="905" stroke="#CFD8DC" stroke-width="34"/>
+    <polyline points="2240,1080 2290,1130 2370,1040" fill="none" stroke="#4ECB71" stroke-width="30"/>
+    <line x1="2440" y1="1085" x2="2740" y2="1085" stroke="#CFD8DC" stroke-width="34"/>
+    <polyline points="2240,1260 2290,1310 2370,1220" fill="none" stroke="#4ECB71" stroke-width="30"/>
+    <line x1="2440" y1="1265" x2="2820" y2="1265" stroke="#CFD8DC" stroke-width="34"/>
+    <line x1="2240" y1="1420" x2="2820" y2="1420" stroke="#F56539" stroke-width="34"/>
+  </g>
+  <!-- lens -->
+  <circle cx="1880" cy="960" r="250" fill="#FFFFFF" fill-opacity="0.35" stroke="#263238" stroke-width="40"/>
+  <line x1="2060" y1="1140" x2="2260" y2="1340" stroke="#263238" stroke-width="70" stroke-linecap="round"/>
+</svg>

@@ -26,6 +26,7 @@ import { ThemeContext } from "../../contexts/ThemeContext";
 import { socialsData } from "../../data/socialsData";
 import { contactsData } from "../../data/contactsData";
 import "./Contacts.css";
+import { SiLeetcode } from "react-icons/si";
 
 function Contacts() {
   const [open, setOpen] = useState(false);
@@ -139,6 +140,20 @@ function Contacts() {
           email: email,
           message: message,
         };
+
+        if (!contactsData.sheetAPI) {
+          // No form backend configured: open the visitor's mail app instead.
+          const subject = encodeURIComponent(`Portfolio enquiry from ${name}`);
+          const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
+          window.location.href = `mailto:${contactsData.email}?subject=${subject}&body=${body}`;
+          setSuccess(true);
+          setErrMsg("");
+          setName("");
+          setEmail("");
+          setMessage("");
+          setOpen(false);
+          return;
+        }
 
         axios.post(contactsData.sheetAPI, responseData).then((res) => {
           console.log("success");
@@ -313,6 +328,16 @@ function Contacts() {
                   className={classes.socialIcon}
                 >
                   <FaLinkedinIn aria-label="LinkedIn" />
+                </a>
+              )}
+              {socialsData.leetcode && (
+                <a
+                  href={socialsData.leetcode}
+                  target="_blank"
+                  rel="noreferrer"
+                  className={classes.socialIcon}
+                >
+                  <SiLeetcode aria-label="LeetCode" />
                 </a>
               )}
               {socialsData.instagram && (

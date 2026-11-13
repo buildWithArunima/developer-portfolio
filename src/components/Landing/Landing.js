@@ -4,6 +4,7 @@ import { NavHashLink as NavLink } from "react-router-hash-link";
 import { makeStyles } from "@material-ui/core/styles";
 
 import "./Landing.css";
+import { SiLeetcode } from "react-icons/si";
 import { ThemeContext } from "../../contexts/ThemeContext";
 import { headerData } from "../../data/headerData";
 import { socialsData } from "../../data/socialsData";
@@ -90,6 +91,15 @@ function Landing() {
                   className="landing--social"
                   style={{ color: theme.secondary }}
                   aria-label="GitHub"
+                />
+              </a>
+            )}
+            {socialsData.leetcode && (
+              <a href={socialsData.leetcode} target="_blank" rel="noreferrer">
+                <SiLeetcode
+                  className="landing--social"
+                  style={{ color: theme.secondary }}
+                  aria-label="LeetCode"
                 />
               </a>
             )}

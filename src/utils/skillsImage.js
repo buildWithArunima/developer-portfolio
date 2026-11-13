@@ -38,6 +38,16 @@ import matlab from "../assets/svg/skills/matlab.svg";
 import php from "../assets/svg/skills/php.svg";
 import python from "../assets/svg/skills/python.svg";
 import ruby from "../assets/svg/skills/ruby.svg";
+import kafka from "../assets/svg/skills/kafka.svg";
+import redis from "../assets/svg/skills/redis.svg";
+import rails from "../assets/svg/skills/rails.svg";
+import express from "../assets/svg/skills/express.svg";
+import clickhouse from "../assets/svg/skills/clickhouse.svg";
+import jenkins from "../assets/svg/skills/jenkins.svg";
+import sentry from "../assets/svg/skills/sentry.svg";
+import newrelic from "../assets/svg/skills/newrelic.svg";
+import sidekiq from "../assets/svg/skills/sidekiq.svg";
+import redux from "../assets/svg/skills/redux.svg";
 import swift from "../assets/svg/skills/swift.svg";
 import adobeaudition from "../assets/svg/skills/adobeaudition.svg";
 import aws from "../assets/svg/skills/aws.svg";
@@ -159,6 +169,32 @@ export const skillsImage = (skill) => {
       return python;
     case "ruby":
       return ruby;
+    case "kafka":
+      return kafka;
+    case "apache kafka":
+      return kafka;
+    case "redis":
+      return redis;
+    case "ruby on rails":
+      return rails;
+    case "rails":
+      return rails;
+    case "express":
+      return express;
+    case "express js":
+      return express;
+    case "clickhouse":
+      return clickhouse;
+    case "jenkins":
+      return jenkins;
+    case "sentry":
+      return sentry;
+    case "new relic":
+      return newrelic;
+    case "sidekiq":
+      return sidekiq;
+    case "redux":
+      return redux;
     case "swift":
       return swift;
     case "adobe audition":

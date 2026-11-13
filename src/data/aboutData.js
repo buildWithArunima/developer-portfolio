@@ -1,8 +1,8 @@
 export const aboutData = {
   title: "Who I am",
   description1:
-    "My name's Arunima Singh. I'm a web developer and cloud enthusiast based in Uttar Pradesh, India.",
+    "I'm Arunima Singh, a backend engineer based in Bangalore. I'm a Senior Software Development Engineer I at GoComet, an enterprise logistics and supply-chain SaaS platform, where I've worked since January 2024.",
   description2:
-    "I am a final year student in Vellore Institute of Technolofy, Bhopal Campus doing my B.Tech in Computer Science and Engineering with specialization in Cyber Sceurity and Digital Forensics. I spent my leisure hours practising data structures and algorithms and listening to music. I'm also trying a hand at Cloud Kubernetes. I love to learn and explore new arenas.",
+    "I led the migration of GoComet's Detention & Demurrage billing engine from a Rails monolith to an event-driven Kafka microservice, and I own production systems end to end — from PRD and low-level design through release and enterprise client escalations. My day-to-day stack is Ruby on Rails, Kafka, PostgreSQL, MongoDB, Redis, Node.js and React, and I care most about system design, data correctness and reliability. Before GoComet I interned at Microsoft, and I graduated in Computer Science from VIT Bhopal in 2024.",
   image: 2,
 };
